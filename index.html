@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Сервисный инженер — профессия в ЭРТХ. Узнай, чем занимается специалист, какие навыки нужны и как начать карьеру студенту.">
+    <title>Сервисный инженер — Профессии ЭРТХ</title>
+    
+    <!-- Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Favicon (можно будет заменить на свой) -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    
+    <!-- Стили -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Фоновый слой (для будущего сгенерированного фона) -->
+    <div class="bg-placeholder" aria-hidden="true"></div>
+
+    <!-- Навигация -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="#hero" class="logo">
+                <img src="assets/logo-ertx.svg" alt="ЭРТХ" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
+                <span class="logo-text" style="display:none;">ЭРТХ</span>
+            </a>
+            <button class="nav-toggle" aria-label="Открыть меню" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#who">О профессии</a></li>
+                <li><a href="#tasks">Задачи</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#career">Карьера</a></li>
+                <li><a href="#importance">Важность професии</a></li>
+                <li><a href="#quiz">Тест</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Сервисный инженер</h1>
+                <p class="hero-subtitle">Специалист, который держит на плаву цифровую инфраструктуру</p>
+                <p class="hero-description">
+                    Сервисный инженер — это ключевое звено между сложным телекоммуникационным оборудованием 
+                    и бесперебойной работой сетей. Если интернет работает как часы — это заслуга таких специалистов.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#quiz" class="btn btn-primary">
+                        <span>🎯</span>
+                        Пройти тест
+                    </a>
+                    <a href="#career" class="btn btn-secondary">
+                        <span>📚</span>
+                        Как начать карьеру
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-wrapper">
+                    <!-- Сюда вставить сгенерированное изображение -->
+                    <img 
+                        src="assets/hero-engineer.jpg" 
+                        alt="Сервисный инженер за работой" 
+                        class="hero-image"
+                        onerror="this.parentElement.classList.add('placeholder');"
+                    >
+                </div>
+            </div>
+        </section>
+
+        <!-- WHO IS SECTION -->
+        <section id="who" class="section who-is fade-in">
+            <div class="section-header">
+                <h2 class="section-title">Кто такой сервисный инженер?</h2>
+                <p class="section-subtitle">
+                    Представьте, что телекоммуникационная сеть — это живой организм. 
+                    Сервисный инженер — его врач и техник в одном лице.
+                </p>
+            </div>
+            <div class="who-grid">
+                <article class="who-card">
+                    <div class="who-icon">🔧</div>
+                    <h3>Технический эксперт</h3>
+                    <p>Устанавливает, настраивает и обслуживает сетевое оборудование: от домашних роутеров до промышленных серверов.</p>
+                </article>
+                <article class="who-card">
+                    <div class="who-icon">🚨</div>
+                    <h3>Скорая помощь</h3>
+                    <p>Быстро реагирует на сбои и аварии, диагностирует проблемы и восстанавливает работу сетей в кратчайшие сроки.</p>
+                </article>
+                <article class="who-card">
+                    <div class="who-icon">📊</div>
+                    <h3>Аналитик</h3>
+                    <p>Мониторит состояние оборудования, анализирует логи и предотвращает возможные проблемы до их появления.</p>
+                </article>
+                <article class="who-card">
+                    <div class="who-icon">🤝</div>
+                    <h3>Коммуникатор</h3>
+                    <p>Объясняет клиентам технические вопросы простым языком и помогает решить их проблемы.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- TASKS SECTION -->
+        <section id="tasks" class="section fade-in">
+            <div class="section-header">
+                <h2 class="section-title">Чем занимается сервисный инженер</h2>
+                <p class="section-subtitle">Каждый день — новые вызовы и интересные задачи</p>
+            </div>
+            <div class="tasks-grid">
+                <article class="task-card">
+                    <div class="task-number">01</div>
+                    <h3>Диагностика неисправностей</h3>
+                    <p>Выявление причин сбоев в работе сетевого оборудования с помощью специализированного ПО и инструментов мониторинга.</p>
+                </article>
+                <article class="task-card">
+                    <div class="task-number">02</div>
+                    <h3>Установка и настройка</h3>
+                    <p>Монтаж нового оборудования, конфигурация маршрутизаторов, коммутаторов, серверов и систем безопасности.</p>
+                </article>
+                <article class="task-card">
+                    <div class="task-number">03</div>
+                    <h3>Техническое обслуживание</h3>
+                    <p>Плановые проверки оборудования, обновление прошивок, замена изношенных компонентов, профилактика.</p>
+                </article>
+                <article class="task-card">
+                    <div class="task-number">04</div>
+                    <h3>Устранение аварий</h3>
+                    <p>Оперативный выезд на объекты при сбоях, восстановление работоспособности сетей в режиме 24/7.</p>
+                </article>
+                <article class="task-card">
+                    <div class="task-number">05</div>
+                    <h3>Консультирование клиентов</h3>
+                    <p>Помощь пользователям в настройке оборудования, решение технических вопросов, обучение базовым навыкам.</p>
+                </article>
+                <article class="task-card">
+                    <div class="task-number">06</div>
+                    <h3>Документирование</h3>
+                    <p>Ведение технической документации, составление отчетов о выполненных работах, фиксация инцидентов.</p>
+                </article>
+                <article class="task-card">
+                    <div class="task-number">07</div>
+                    <h3>Модернизация сетей</h3>
+                    <p>Участие в проектах по обновлению инфраструктуры, внедрение новых технологий и решений.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section skills fade-in">
+            <div class="section-header">
+                <h2 class="section-title">Необходимые навыки</h2>
+                <p class="section-subtitle">
+                    Что нужно знать и уметь, чтобы стать успешным сервисным инженером
+                </p>
+            </div>
+            <div class="skills-container">
+                <div class="skills-column">
+                    <h3><span>💻</span> Hard Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <h4>Сетевые технологии</h4>
+                            <p>TCP/IP, DNS, DHCP, VLAN, маршрутизация и коммутация</p>
+                        </div>
+                        <div class="skill-item">
+                            <h4>Оборудование</h4>
+                            <p>Маршрутизаторы, коммутаторы, серверы Cisco, Huawei, MikroTik</p>
+                        </div>
+                        <div class="skill-item">
+                            <h4>Операционные системы</h4>
+                            <p>Windows Server, Linux (Ubuntu, CentOS), базовое администрирование</p>
+                        </div>
+                        <div class="skill-item">
+                            <h4>Диагностические инструменты</h4>
+                            <p>Wireshark, ping, traceroute, Zabbix, PRTG</p>
+                        </div>
+                        <div class="skill-item">
+                            <h4>Кабельные системы</h4>
+                            <p>Монтаж и тестирование витой пары, оптоволокна</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-column">
+                    <h3><span>🧠</span> Soft Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <h4>Аналитическое мышление</h4>
+                            <p>Умение быстро находить причинно-следственные связи и решать сложные задачи</p>
+                        </div>
+                        <div class="skill-item">
+                            <h4>Стрессоустойчивость</h4>
+                            <p>Способность работать в условиях давления при аварийных ситуациях</p>
+                        </div>
+                        <div class="skill-item">
+                            <h4>Коммуникабельность</h4>
+                            <p>Умение объяснять сложное простым языком и работать с клиентами</p>
+                        </div>
+                        <div class="skill-item">
+                            <h4>Обучаемость</h4>
+                            <p>Готовность постоянно изучать новые технологии и обновлять знания</p>
+                        </div>
+                        <div class="skill-item">
+                            <h4>Внимательность к деталям</h4>
+                            <p>Точность в настройке оборудования и работе с документацией</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CAREER PATH SECTION -->
+        <section id="career" class="section fade-in">
+            <div class="section-header">
+                <h2 class="section-title">Как начать карьеру студенту</h2>
+                <p class="section-subtitle">Пошаговый план от первокурсника до профессионала</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>1 курс: База</h3>
+                        <p>Изучай основы: архитектуру компьютеров, операционные системы, базовые сетевые протоколы.</p>
+                        <ul>
+                            <li>Запишись в профильные кружки и лаборатории</li>
+                            <li>Начни разбирать домашний роутер и собирать свою сеть</li>
+                            <li>Читай книги: "Компьютерные сети" Таненбаума</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-marker">1</div>
+                    <div></div>
+                </div>
+                <div class="timeline-item">
+                    <div></div>
+                    <div class="timeline-marker">2</div>
+                    <div class="timeline-content">
+                        <h3>2 курс: Углубление</h3>
+                        <p>Изучай сетевые технологии глубже, получай первые сертификаты.</p>
+                        <ul>
+                            <li>Освой Cisco CCNA или аналогичные курсы</li>
+                            <li>Практикуйся в Packet Tracer / GNS3</li>
+                            <li>Участвуй в хакатонах и IT-соревнованиях</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>3 курс: Практика</h3>
+                        <p>Иди на стажировку в ЭРТХ — получай реальный опыт под руководством менторов.</p>
+                        <ul>
+                            <li>Подай заявку на стажировку в ЭРТХ</li>
+                            <li>Работай с реальным оборудованием</li>
+                            <li>Изучай внутренние стандарты компании</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-marker">3</div>
+                    <div></div>
+                </div>
+                <div class="timeline-item">
+                    <div></div>
+                    <div class="timeline-marker">4</div>
+                    <div class="timeline-content">
+                        <h3>4 курс: Старт карьеры</h3>
+                        <p>Переходи на позицию Junior-специалиста и расти внутри компании.</p>
+                        <ul>
+                            <li>Получи оффер после успешной стажировки</li>
+                            <li>Развивайся в сторону Team Lead или архитектора сетей</li>
+                            <li>Получай корпоративное обучение и сертификацию</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DAY IN LIFE SECTION -->
+        <section id="day" class="section day-section fade-in">
+            <div class="section-header">
+                <h2 class="section-title">Как проходит рабочий день</h2>
+                <p class="section-subtitle">Типичный день сервисного инженера ЭРТХ</p>
+            </div>
+            <div class="day-timeline">
+                <div class="day-item">
+                    <div class="day-time">09:00</div>
+                    <div class="day-content">
+                        <h4>Утренняя планёрка</h4>
+                        <p>Проверка мониторинга, обзор ночных инцидентов, распределение задач на день с командой.</p>
+                    </div>
+                </div>
+                <div class="day-item">
+                    <div class="day-time">10:30</div>
+                    <div class="day-content">
+                        <h4>Выезд на объект</h4>
+                        <p>Установка нового оборудования у корпоративного клиента. Подключение и первичная настройка.</p>
+                    </div>
+                </div>
+                <div class="day-item">
+                    <div class="day-time">13:00</div>
+                    <div class="day-content">
+                        <h4>Обед и обучение</h4>
+                        <p>Обед с коллегами, обмен опытом. Чтение технической документации или прохождение внутреннего курса.</p>
+                    </div>
+                </div>
+                <div class="day-item">
+                    <div class="day-time">14:30</div>
+                    <div class="day-content">
+                        <h4>Аварийный вызов</h4>
+                        <p>Поступает заявка о сбое. Срочный выезд, диагностика, восстановление работы сети за 40 минут.</p>
+                    </div>
+                </div>
+                <div class="day-item">
+                    <div class="day-time">16:30</div>
+                    <div class="day-content">
+                        <h4>Плановое ТО</h4>
+                        <p>Проверка оборудования на узловой станции. Обновление прошивок, замена компонентов.</p>
+                    </div>
+                </div>
+                <div class="day-item">
+                    <div class="day-time">18:00</div>
+                    <div class="day-content">
+                        <h4>Отчётность и закрытие дня</h4>
+                        <p>Заполнение заявок в CRM, обновление документации, передача смены дежурной бригаде.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- IMPORTANCE SECTION -->
+        <section id="importance" class="section fade-in">
+            <div class="section-header">
+                <h2 class="section-title">Почему роль важна для ЭРТХ</h2>
+                <p class="section-subtitle">Сервисные инженеры — фундамент, на котором стоит вся компания</p>
+            </div>
+            <div class="importance-grid">
+                <article class="importance-card">
+                    <div class="importance-icon">🌐</div>
+                    <h3>Доступность услуг</h3>
+                    <p>Благодаря сервисным инженерам миллионы клиентов ЭРТХ получают стабильный интернет и ТВ 24/7.</p>
+                </article>
+                <article class="importance-card">
+                    <div class="importance-icon">💼</div>
+                    <h3>Репутация компании</h3>
+                    <p>Качество работы инженеров напрямую влияет на удовлетворённость клиентов и лояльность к бренду.</p>
+                </article>
+                <article class="importance-card">
+                    <div class="importance-icon">🚀</div>
+                    <h3>Развитие технологий</h3>
+                    <p>Инженеры внедряют новые стандарты связи (GPON, 5G-ready), обеспечивая технологическое лидерство ЭРТХ.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- QUIZ SECTION — компактная версия -->
+		<section id="quiz" class="section quiz-section fade-in">
+			<div class="quiz-wrapper">
+				<div class="quiz-header">
+					<h2 class="section-title">Подойдёт ли тебе профессия?</h2>
+					<p class="section-subtitle">5 коротких вопросов — и ты узнаешь, насколько ты готов к роли сервисного инженера</p>
+				</div>
+				<div class="quiz-container">
+					<div class="quiz-progress">
+						<div class="quiz-progress-bar" id="quizProgressBar"></div>
+					</div>
+					<div class="quiz-info">
+						<span>Вопрос <span id="quizCurrent">1</span> из <span id="quizTotal">5</span></span>
+					</div>
+					<div id="quizQuestions"></div>
+					<div class="quiz-navigation">
+						<button class="quiz-btn quiz-btn-secondary" id="quizPrev" disabled>← Назад</button>
+						<button class="quiz-btn quiz-btn-primary" id="quizNext" disabled>Далее →</button>
+					</div>
+					<div class="quiz-result" id="quizResult">
+						<div class="result-icon" id="resultIcon">🎉</div>
+						<h3 class="result-title" id="resultTitle"></h3>
+						<p class="result-text" id="resultText"></p>
+						<button class="quiz-btn quiz-btn-primary" id="quizRestart">Пройти ещё раз</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section contact fade-in">
+            <div class="section-header">
+                <h2 class="section-title">Готов начать карьеру в ЭРТХ?</h2>
+                <p class="section-subtitle">Мы всегда рады талантливым студентам и начинающим специалистам</p>
+            </div>
+            <div class="contact-grid">
+                <a href="mailto:career@ertkh.ru" class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h3>Email</h3>
+                    <p>example-career@mail.ru</p>
+                </a>
+                <a href="tel:+88005001010" class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3>Телефон</h3>
+                    <p>8 800 500-10-10</p>
+                </a>
+                <a href="https://t.me/ertkh_career" target="_blank" rel="noopener" class="contact-card">
+                    <div class="contact-icon">💬</div>
+                    <h3>Telegram</h3>
+                    <p>@example_tg</p>
+                </a>
+                <a href="https://ertkh.ru/career" target="_blank" rel="noopener" class="contact-card">
+                    <div class="contact-icon">🌐</div>
+                    <h3>Сайт карьеры</h3>
+                    <p>example.ru/career</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2026 <strong>ЭР-Телеком Холдинг</strong>. Все права защищены.</p>
+            <p class="footer-note">Сайт создан для ознакомления студентов с профессией сервисного инженера</p>
+			<p class="footer-note">Разработали студенты команды "Квантовики"</p>
+        </div>
+    </footer>
+
+    <!-- Скрипты -->
+    <script src="script.js" defer></script>
+</body>
+</html>
